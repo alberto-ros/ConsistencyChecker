@@ -1,0 +1,7 @@
+st x 1
+ld x
+ld y
+---
+st y 2 
+st x 2
+---
