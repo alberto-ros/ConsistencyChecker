@@ -6,7 +6,11 @@ Used in the paper: Alberto Ros and Stefanos Kaxiras, "Speculative Enforcement of
 
 An example of program for the checker is given (file n6.in).
 
-The checker reads the program file by the standard input: ./consistency-checker < n6.in
+The checker reads the program file by the standard input: 
+
+```
+./consistency-checker < n6.in
+```
 
 The output for this example is:
 
