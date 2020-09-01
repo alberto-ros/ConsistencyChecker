@@ -10,9 +10,9 @@ The checker reads the program file by the standard input: ./consistency-checker 
 
 The output for this example is:
 
-PROGRAM LOADED:
-st x, 1		st y, 2		
-ld x		st x, 2		
+PROGRAM LOADED:  
+st x, 1		st y, 2  
+ld x		st x, 2  
 ld y					
 
 IBM370 (STORE-ATOMIC) POSSIBLE SOLUTIONS:
