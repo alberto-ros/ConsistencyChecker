@@ -34,3 +34,7 @@ TSO (WRITE-ATOMIC) POSSIBLE SOLUTIONS (* breaks store atomicity):
 [x]==2; [y]==2; x==2; y==2; 
 ```
 
+[x] refers to the value of the memory location of x at the end of the execution. 
+
+x refers to the value read by the load. If x is loaded several times the read values are shown in thread order first and in program order within the thread.
+
